@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: black;
+}
+
+.box{
+  background-color: gray;
+  margin: auto;
+  width: 40%;
+  min-width: 300;
+  border: 1px black solid;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  opacity: 2;
+  border-radius: 10px;
+}
+
+#email{
+  background-color: skyblue;
+  border-radius: 20px;
+  height: 30px;
+  margin-top: 10px;
+  width: 38%;
+  border: 1px solid white;
+  box-shadow: 5px 5px 4px #61dafb;
+  padding-left: 5px;
+}
+
+#pass{
+  
+    background-color:skyblue;
+    border-radius: 20px;
+    height: 30px;
+  margin-top: 10px;
+  width: 38%;
+  
+    border: 1px solid white;
+    box-shadow: 5px 5px 4px #61dafb;
+    padding-left: 15%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+  
+}
+
+#number{
+  background-color:skyblue;
+    border-radius: 20px;
+    height: 30px;
+  margin-top: 10px;
+  width: 38%;
+    border: 1px solid white;
+    box-shadow: 5px 5px 4px #61dafb;
+    padding-left: 15%;
+padding-left: 5px;
+}
+
+#pass1{
+  background-color:skyblue;
+  border-radius: 20px;
+  height: 30px;
+margin-top: 10px;
+width: 38%;
+  border: 1px solid white;
+  box-shadow: 5px 5px 4px #61dafb;
+  padding-left: 15%;
+  margin-bottom: 10px;
+padding-left: 5px;
+}
+
+.btn{
+  width: 10%;
+  margin: 10px;
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+.hide{
+  display: none;
+}
